@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-spacing: 3px;
+	letter-spacing:1px;
+}
+
+.textcol{
+	color: #ffc107;
+}
+.marg{
+	margin-top: 3%;
+}
+
+#shadow{
+	background-color: transparent;
+	width: 98%;
+	height: 110%;
+	box-shadow: 0 4px 6px 0 goldenrod;
+	border-radius: 15px;
+}
+
+.image-bg{
+	background-image: url('nays.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+img{
+	opacity: 0.8;
+}
+
+input[type=text]{
+	background-color: rgb(224,224,224);
+}
+
+input[type=password]{
+	background-color: rgb(224,224,224);
+}
+.entry{
+	background-color: rgb(224, 224, 224);
+	color: black;
+}
+
+.frgtpass{
+	margin-top: 2cm;
+	color:white;
+}
+.frgtpass:hover{
+	color: #ffc107;
+}
+#loginbtn{
+	color: goldenrod;
+	background-color: rgb(16, 24, 32);
+}
+#loginbtn:hover{
+	color: rgb(16, 24, 32);
+	background-color: goldenrod;
+}

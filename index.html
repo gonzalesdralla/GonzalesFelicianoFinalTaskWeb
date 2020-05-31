@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width = device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<title>Gonzales-Feliciano Login Form</title>
+	</head>
+
+
+	<body class="image-bg container marg">
+		<div>	
+			<div class="text-center pt-5 textcol"> 
+				<h1><strong>LOGIN</strong></h1>
+				<h5> User | Admin</h5>
+				<p id="adm" class="text-center pt-4 textcol"></p>
+			</div>
+			<div class="row contains ">
+                <div class="col-md-4 col-sm-3 col-xs-12 "></div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="container-fluid shadow-lg"> 
+						<form id="shadow">
+							<div class="container">
+								<div class="text-center pt-4">
+									<p id="adm"></p>
+									<img class="shadow-lg rounded-circle" src="user.png" alt="profile" width="100px;" height="100px;">
+									<hr width="100%" style="margin-left: 1px; background-color: rgba(128, 128, 128, 0)">
+								</div>
+								<div class="p-1">
+									<input class="form-control entry" type="text" placeholder="Enter username" id="username" required>
+								</div> 
+								<div class="p-1">
+									<input class="form-control entry" type="password" placeholder="Enter password" id="password" required>
+								</div>
+								<p><a href="#" class = "frgtpass"><br/>Forgot Password?</a></p>
+								<button type="button" class="form-control" id="loginbtn" onclick="myFunction()"><strong>LOGIN</strong></button>
+								<br/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<p id="usr" class="text-center pt-4 textcol"></p>
+		</div>
+		<script src="fjs.js"></script>
+	</body>
+</html>
